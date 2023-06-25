@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="Site Logo">
+          </div>
+          <ul class="nav-items">
+            <li class="nav-link">
+              <a href="javascript:void(0)">Collections</a>
+            </li>
+            <li class="nav-link">
+              <a href="javascript:void(0)">Men</a>
+            </li>
+            <li class="nav-link">
+              <a href="javascript:void(0)">Women</a>
+            </li>
+            <li class="nav-link">
+              <a href="javascript:void(0)">About</a>
+            </li>
+            <li class="nav-link">
+              <a href="javascript:void(0)">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="basket-side">
+          <div class="shop-card">
+            <img src="./images/icon-cart.svg" alt="Cart Logo">
+          </div>
+          <div class="avatar">
+            <img height="36" width="36" src="./images/image-avatar.png" alt="User Avatar">
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="slider-container">
+      <div class="slider-area">
+        <div class="left-arrow">
+          <button class="left-btn">
+            <img src="./images/icon-previous.svg">
+          </button>
+        </div>
+        <div class="right-arrow">
+          <button class="right-btn">
+            <img src="./images/icon-next.svg">
+          </button>
+        </div>
+        <div class="exit-btn">
+          <button>
+            <img src="./images/icon-close.svg">
+          </button>
+        </div>
+        <div class="product-carousel">
+          <div class="product-image">
+            <img src="./images/image-product-1.jpg" alt="Product Image">
+          </div>
+          <div class="product-thumbnails">
+            <div class="active-thumbnail">
+              <img data-src="./images/image-product-1.jpg" src="./images/image-product-1-thumbnail.jpg"
+                alt="Product Thumbnail">
+            </div>
+            <div>
+              <img data-src="./images/image-product-2.jpg" src="./images/image-product-2-thumbnail.jpg"
+                alt="Product Thumbnail">
+            </div>
+            <div>
+              <img data-src="./images/image-product-3.jpg" src="./images/image-product-3-thumbnail.jpg"
+                alt="Product Thumbnail">
+            </div>
+            <div>
+              <img data-src="./images/image-product-4.jpg" src="./images/image-product-4-thumbnail.jpg"
+                alt="Product Thumbnail">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="product-container">
+        <div class="product-carousel">
+          <div class="product-image">
+            <img src="./images/image-product-1.jpg" alt="Product Image">
+          </div>
+          <div class="product-thumbnails">
+            <div class="active-thumbnail">
+              <img data-src="./images/image-product-1.jpg" src="./images/image-product-1-thumbnail.jpg"
+                alt="Product Thumbnail">
+            </div>
+            <div>
+              <img data-src="./images/image-product-2.jpg" src="./images/image-product-2-thumbnail.jpg"
+                alt="Product Thumbnail">
+            </div>
+            <div>
+              <img data-src="./images/image-product-3.jpg" src="./images/image-product-3-thumbnail.jpg"
+                alt="Product Thumbnail">
+            </div>
+            <div>
+              <img data-src="./images/image-product-4.jpg" src="./images/image-product-4-thumbnail.jpg"
+                alt="Product Thumbnail">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="product-details">
+            <h4 class="text-orange company">Snaker Company</h4>
+            <h1 class="product-name">
+              Fall Limited Edition Sneakers
+            </h1>
+            <p class="product-description">
+              These low-profile sneakers are your perfect casual wear companion. Featuring a
+              durable rubber outer sole, they’ll withstand everything the weather can offer.
+            </p>
+
+            <div class="product-price">
+              <p class="discount-price">$125.00 <span class="discount-amount">50%</span></p>
+              <p class="original-price">$250.00</p>
+            </div>
+
+            <div class="product-payment">
+
+              <div class="product-amount">
+                <button class="product-increment">
+                  <img src="./images/icon-minus.svg">
+                </button>
+                <span class="amount">0</span>
+                <button class="product-decrement">
+                  <img src="./images/icon-plus.svg">
+                </button>
+              </div>
+
+              <div class="add-to-cart">
+                <button>
+                  <img src="./images/icon-cart-white.svg"> Add to cart
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </main>
+  </div>
+
+</body>
+
+</html>
